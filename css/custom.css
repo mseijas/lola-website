@@ -40,7 +40,7 @@
 }
 
 .button-area {
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
 }
 
 .phones {
@@ -94,15 +94,27 @@
   margin-bottom: 4rem;
 }
 
+/* Release Party
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.tumblr-logo {
+  margin-top: 0.3rem;
+}
+
 /* Notify Me
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .notifyme-header {
   margin-bottom: 3rem;
 }
 
+.button-purple {
+  background-color: #B233F0 !important;
+  border-color: #AD33F0 !important;
+}
+
 /* Help
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .get-help {
+  background-color: #FCFD88;
   border-bottom: 1px solid #ddd;
 }
 
@@ -148,6 +160,9 @@
   .footer-logo {
     max-width: 50%;
   }
+  .values {
+    margin-top: 10rem;
+  }
 }
 
 /* Bigger than 750 */
@@ -184,10 +199,14 @@
   .notifyme-form {
     padding: 0% 20%;
   }
+  .values {
+    margin-top: 0;
+  }
 }
 
 /* Bigger than 1000 */
-I {
+@media (min-width: 750px) and (min-width: 100px) {
+/*I {*/
   /*.section {
     padding: 20rem 0 19rem;
   }*/
