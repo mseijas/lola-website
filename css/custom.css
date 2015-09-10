@@ -8,6 +8,19 @@
   color: red;
 }
 
+img.desaturate { 
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+}
+
+.one-fifth.column { 
+    width: 16.3333333333%;
+    padding-right: 10px;
+}
+
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
@@ -96,6 +109,10 @@
 
 /* Release Party
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*.release {
+  padding: 14rem 0 2rem !important;
+}*/
+
 .tumblr-logo {
   margin-top: 0.3rem;
 }
@@ -115,7 +132,15 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .get-help {
   background-color: #FCFD88;
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
+}
+
+/* Press
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.press-logo {
+  max-height: 50px;
+  padding: 8px 0;
+  margin: 14px 0;
 }
 
 /* Categories
@@ -162,6 +187,9 @@
   }
   .values {
     margin-top: 10rem;
+  }
+  .press {
+    padding: 6rem 0 5rem !important;
   }
 }
 
