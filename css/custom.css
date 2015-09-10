@@ -1,0 +1,211 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+.error-message {
+  color: red;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero-section {
+  margin-top: -4rem;
+}
+
+.logo {
+  padding-bottom: 1.5rem;
+  max-width: 50%;
+}
+
+.footer-logo {
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.hero-heading {
+  padding-bottom: 2rem;
+}
+
+.button-area {
+  padding-bottom: 5rem;
+}
+
+.phones {
+  position: relative;
+}
+.phone {
+  position: relative;
+  max-width: 80%;
+  margin: 3rem auto -12rem;
+}
+.phone + .phone {
+  display: none;
+}
+
+/* Video Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  background-color: #74E9FF;
+  color: #54587E;
+  font-size: 1.63rem;
+}
+.value-multiplier {
+  margin-top: 3rem;
+  color: #F54294;
+}
+.value-heading {
+  margin-bottom: 5rem;
+
+}
+.value-description {
+  opacity: .8;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+
+/* Notify Me
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.notifyme-header {
+  margin-bottom: 3rem;
+}
+
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+  background-color: #8C8CFF;
+  color: #fff;
+  padding: 8rem !important;
+}
+.categories .section-description { 
+  margin-bottom: 4rem;
+}
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 14rem 0 13rem;
+  }
+  .hero {
+    padding-bottom: 12rem;
+    text-align: left;
+    height: 165px;
+  }
+  .phone {
+    position: absolute;
+    top: -7rem;
+    right: 3rem;
+    max-height: 362px;
+    z-index: 3;
+  }
+  .phone + .phone {
+    top: -6rem;
+    display: block;
+    max-width: 73.8%;
+    right: 0;
+    z-index: 2;
+    max-height: 338px;
+  }
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+  .footer-logo {
+    max-width: 50%;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .hero {
+    height: 190px;
+  }
+  .hero-heading {
+    font-size: 2.5rem;
+  }
+  /*.section {
+    padding: 14rem 0 15rem;
+  }*/
+  .hero {
+    padding: 16rem 0 14rem;
+  }
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .phone {
+    top: -14rem;
+    right: 5rem;
+    max-height: 510px;
+  }
+  .phone + .phone {
+    top: -12rem;
+    max-height: 472px;
+  }
+  .categories {
+    padding: 15rem 0 8rem;
+  }
+  .notifyme-form {
+    padding: 0% 20%;
+  }
+}
+
+/* Bigger than 1000 */
+I {
+  /*.section {
+    padding: 20rem 0 19rem;
+  }*/
+  .hero {
+    padding: 22rem 0;
+  }
+  .hero-heading {
+    font-size: 2.8rem;
+  }
+  .phone {
+    top: -16rem;
+    max-height: 615px;
+  }
+  .phone + .phone {
+    top: -14rem;
+    max-height: 570px;
+  }
+  .notifyme-form {
+   padding: 0% 20%;
+  }
+}
