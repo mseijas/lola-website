@@ -36,7 +36,7 @@
           <img class="logo" src="images/logo-LoLa_small.png">
           <h4 class="hero-heading">A funny digital tool that trains your brain with social and daily living skills.</h4>
 	      <a class="button button-primary" href="#learnmore">Learn More</a>
-        <a class="button button-primary button-purple button-releaseparty" href="#releaseparty">Join our release party</a>
+        <a class="button button-primary button-purple button-releaseparty" href="http://www.techkidsunlimited.org/donate/">Make a donation</a>
         </div>
         <div class="one-half column phones">
           <img class="phone" src="images/lola1.png">
@@ -47,7 +47,7 @@
   </div>
 
   <div class="section values">
-  	<a name="learnmore"></a> 
+  	<a name="learnmore"></a>
     <div class="container">
       <div class="row">
         <div class="twelve column value">
@@ -62,23 +62,6 @@
 	          	<iframe width="560" height="315" src="https://www.youtube.com/embed/qho6DSHKxXc" frameborder="0" allowfullscreen></iframe>
           	</div>
           </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <a name="releaseparty"></a>
-  <div class="section release">
-    <div class="container">
-      <div class="row">
-        <div class="twelve columns release-header">
-          <h3 class="section-heading">Join our release party!</h3>
-          <p class="section-description">
-            The first version of LOLA will be released on October 2015.<br/>
-            Join us for our release party &amp; celebration fundraiser at Tumblr on <b>October 20</b><br/><br/>
-          </p>
-          <a class="button button-primary button-purple" href="http://www.eventbrite.com/e/tech-kids-unlimited-fundraiser-and-app-launch-tickets-18477643128?aff=mcivte">Register to attend</a><br/>
-          <img class="tumblr-logo u-max-full-width" src="images/logo-tumblr.png">
         </div>
       </div>
     </div>
@@ -189,14 +172,14 @@ $(document).ready(function() {
 
   function saveUserInterest(emailAddress) {
     Parse.initialize("OuXyudLEOJzJSZSprnijWdBmhWMyiTmf0cAoSA1C", "X4nEYRbcWBIrfRoMvnYs9p7a2xgHHYMTS8uyj5kg");
-    
+
     var acl = new Parse.ACL();
     acl.setPublicReadAccess(false);
 
     var UserInterest = Parse.Object.extend("UserInterest");
     var newUser = new UserInterest();
     newUser.setACL(acl);
-    
+
     newUser.save({email: emailAddress}, {
       success: function(object) {
         console.log("Object saved!");
